@@ -1,0 +1,6 @@
+framework module AYModelProtocol {
+  umbrella header "AYModelProtocol-umbrella.h"
+
+  export *
+  module * { export * }
+}

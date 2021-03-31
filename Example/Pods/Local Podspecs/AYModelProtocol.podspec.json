@@ -1,0 +1,29 @@
+{
+  "name": "AYModelProtocol",
+  "version": "0.1.0",
+  "summary": "model协议基础库.",
+  "description": "TODO: model协议基础库.",
+  "homepage": "https://github.com/FKLam/AYModelProtocol",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "FKLam": "lfk0120@163.com"
+  },
+  "source": {
+    "git": "https://github.com/FKLam/AYModelProtocol.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "http://seongbrave.github.io/",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "AYModelProtocol/Classes/**/*",
+  "frameworks": "Foundation",
+  "dependencies": {
+    "SwiftyJSON": [
+      "~> 4.0.0"
+    ]
+  }
+}
