@@ -6,7 +6,6 @@
 //
 
 import Foundation
-
 /// 请求超时
 let NETTIMEOUT = 500000
 /**
@@ -17,20 +16,17 @@ public struct AYMikerError : Error {
     public let code: Int
     public let message: String
     
-    
     public init(_ domain:String,code:Int,message:String) {
         
         self.domain = domain
         self.code = code
         self.message = message
     }
-    
     public init(_ code:Int,domain:String = "client error") {
         self.domain = domain
         self.code = code
         self.message =  "请求超时"
     }
-    
     /// NSError类型的转换成MikerError
     ///
     /// - Parameter
@@ -44,6 +40,5 @@ public struct AYMikerError : Error {
             self.code = NETTIMEOUT
             self.message = "请求超时"
         }
-        
     }
 }

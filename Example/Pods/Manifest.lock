@@ -1,5 +1,5 @@
 PODS:
-  - AYModelProtocol (0.1.0):
+  - AYModelProtocol (0.1.1):
     - SwiftyJSON (~> 4.0.0)
   - SwiftyJSON (4.0.0)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AYModelProtocol: 3be5cab17cc716792db334b03b645055cb70ee0d
+  AYModelProtocol: 6ba1aa788a803b15e3e94335ca57c91186f1b60b
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
 PODFILE CHECKSUM: 9db00002ab21b70dc52d23eb01124029dd53765d
